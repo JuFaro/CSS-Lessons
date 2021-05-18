@@ -1,0 +1,97 @@
+
+body{
+    font-family: 'Montserrat';
+    margin:0 auto;
+    height: 100%;
+ 
+}  /*  Aqui esta definido o que vai valer pro body inteiro */
+.header1{
+    margin-top: 2%;
+    float: left;
+    margin-left: 5%;
+
+} /* acima cabeçalho esquerdo  */
+.header2{
+    margin-top: 2%;
+    float: right;
+    margin-right: 5%;
+
+} /* acima cabeçalho rigth  */
+
+.hedearmain {
+    clear: both;
+    font-size: 2rem;
+    margin-left: 5%;
+    width: 90%;
+    text-align: center;
+    font-size: 2rem;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+} /* todas especificações do titulo da página */
+.imglogo{
+    float: left;
+    width: 8%;
+    position: static;
+
+} /* logo posicionado com position*/
+.main1 {
+    width: 40%;
+    font-weight:normal ;
+    font-size: 1.4rem;
+    margin-left: 10%;
+    text-align: justify;
+    height: 85%;
+} /* conteudo principal e suas formatações */
+
+.img1{
+    width: 12%;
+    position: absolute;
+    left: 1100px;    
+
+} /* imagem da noticia principal posicionada com position  */
+    
+
+footer{
+    background-color: #DCDCDC; 
+    border: 1px solid #ccc;
+    height: 15%;
+    width: 100%;
+    text-align: center;    
+    clear: both;
+}/* rodapé suas formatações  */
+
+
+#line2-1{
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    float: left;
+    height: 320px;
+    width: 25%;    
+    margin: 10px 7px;
+    margin-left: 5%;
+} /* conteúdo da coluna 1 e suas formatações */
+
+#line2-2{
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    float: left;
+    height: 320px;
+    width: 25%;    
+    margin: 10px 7px;
+    margin-left: 5%;   
+} /* conteúdo da coluna 2 e suas formatações */
+
+#line2-3{
+    background-color:#ccc;
+    border: 1px solid #ccc;
+    float: left;
+    height: 320px;
+    width: 25%;
+    margin: 10px 7px;  
+    margin-left: 5%;
+} /* conteúdo da coluna 3 e suas formatações */
+
+.conteudo{
+    text-align: justify;
+    margin: 10px;
+} /* alinhamento e margim do conteúdo dentro das colunas */

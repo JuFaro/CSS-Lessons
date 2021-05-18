@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/ff/43/47/ff4347f25f5ea0a42ccee4e4cbbb663f.png);
+    background-repeat: no-repeat;    
+    background-position: center bottom ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:lightskyblue;
+    background-blend-mode: lighten;
+    
+}
+
+#p1{
+    width: 60%;
+    margin: auto;
+    border: 5px;
+    border-style: dotted;
+    background-clip: padding-box;
+    background-color: lightyellow;
+    
+}
+
+#p2{
+    width: 60%;
+    margin: auto;
+    border: 5px;
+    border-style: dotted;
+    background-origin: padding-box;
+    background-repeat: no-repeat; 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsxrwGhLTgxm9HOftOh2D2zFfn037PI9J-Gw&usqp=CAU);
+    
+}
+
+/*background : color position size repeat origin clip attachment image ;*/

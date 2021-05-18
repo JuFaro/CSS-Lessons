@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        body{
+            font-size: 2rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        div div{
+            background-color: yellow;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+
+    .wrapper{
+     display: grid;
+     grid-template-columns: repeat(12, 1fr);
+     grid-auto-rows: minmax(50px, auto);
+     gap: 10px;
+
+    }
+
+    .box1{
+        grid-column-start: 1;
+        grid-column-end:  13;
+    }
+    .box2{
+        grid-column-start: 1;
+        grid-column-end:  7;
+    }
+    .box3{
+        grid-column-start: 7;
+        grid-column-end:  13;
+    }
+    .box4{
+        grid-column-start: 1;
+        grid-column-end:  5;
+    }
+    .box5{
+        grid-column-start: 5;
+        grid-column-end:  9;
+    }
+    .box6{
+        grid-column-start: 9;
+        grid-column-end:  13;
+    }
+    .box7{
+        grid-column-start: 1;
+        grid-column-end:  4;
+    }
+    .box8{
+        grid-column-start: 4;
+        grid-column-end:  7;
+    }
+    .box9{
+        grid-column-start: 7;
+        grid-column-end:  10;
+    }
+    .box10{
+        grid-column-start: 10;
+        grid-column-end:  13;
+    }
+    .box11{
+        grid-column-start: 1;
+        grid-column-end:  3;
+    }
+    .box12{
+        grid-column-start: 3;
+        grid-column-end:  5;
+    }
+    .box13{
+        grid-column-start: 5;
+        grid-column-end:  7;
+    }
+    .box14{
+        grid-column-start: 7;
+        grid-column-end:  9;
+    }
+    .box15{
+        grid-column-start: 9;
+        grid-column-end:  11;
+    }
+    .box16{
+        grid-column-start: 11;
+        grid-column-end:  13;
+    }
+
+    </style>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box3">3</div>
+        <div class="box4">4</div> 
+        <div class="box5">5</div>  
+        <div class="box6">6</div>
+        <div class="box7">7</div>
+        <div class="box8">8</div>
+        <div class="box9">9</div>
+        <div class="box10">10</div>
+        <div class="box11">11</div>
+        <div class="box12">12</div>
+        <div class="box13">13</div>
+        <div class="box14">14</div> 
+        <div class="box15">15</div>  
+        <div class="box16">16</div>
+        <div>17</div>
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+        <div>21</div>
+        <div>22</div>
+        <div>23</div>
+        <div>24</div> 
+        <div>25</div>  
+        <div>26</div>
+        <div>27</div>
+        <div>28</div>
+      
+     </div>
+</body>
+</html>

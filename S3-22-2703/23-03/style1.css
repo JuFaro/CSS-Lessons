@@ -1,0 +1,30 @@
+body{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: blue;
+}
+
+table{ 
+    
+    text-align: center;
+    border: none;
+    background-color:white;
+}
+
+*{
+    font-family: ;
+    font-size: ;
+    font-style: ;
+    font-variant: ;
+    font-weight: ;
+    text-decoration: ;
+    text-align: ;
+    text-transform: ;
+    text-indent: ;
+    line-height: ;
+    letter-spacing: ;
+    word-spacing: ;
+    word-wrap: ;
+    white-space: ;
+}

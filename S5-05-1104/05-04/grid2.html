@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        div{
+            border: 1px solid blue;
+            background-color: cornflowerblue;
+        }
+
+    .wrapper{
+     display: grid;
+     grid-template-columns: 213px repeat(3, 1fr);
+     grid-auto-rows: minmax(50px, auto);
+     row-gap: 10px;
+
+    }
+
+    </style>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div>Uno</div>
+        <div>Dues</div>
+        <div>Tre</div>
+        <div>Quattro</div> 
+        <div>Cinque</div>  
+        <div>Sei</div>
+        <div>Sette</div>
+        <div>Otto</div>
+      
+     </div>
+</body>
+</html>

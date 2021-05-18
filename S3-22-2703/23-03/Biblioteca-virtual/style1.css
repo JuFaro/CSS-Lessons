@@ -1,0 +1,208 @@
+/*todas as pag*/
+
+body{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #1F63BD;
+}
+
+table{ 
+    
+    text-align: center;
+    border: none;
+    background-color:white;
+    
+}
+
+.h3ref{
+    background-color:white;
+    width: 20%;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
+/*todas as pag fim*/
+
+/*ficção começo*/
+
+#HP{
+    text-align: left;
+    text-indent:50px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: normal;
+    }
+
+#AC {
+    text-align: left;
+    text-indent:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: normal;
+    }
+
+#OPP {
+    
+    text-align: left;
+    text-indent:50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
+    white-space: normal;
+    }
+
+#LF
+    {font-style: italic;
+        text-transform: uppercase;
+    }
+#TF {font-size:50px;
+    word-spacing: 10px;
+    Font-variant: small-caps;}    
+
+/*ficção fim*/
+
+/*romance começo*/
+
+#h2rp {
+    text-transform: capitalize ;
+    font-weight: bold;
+    word-spacing: 2px ; 
+
+}
+
+#h3rp {
+    font-variant: small-caps;
+
+}
+
+#rp1{
+    font-family:fantasy ;
+    font-style: initial ;
+    font-size: medium;
+    word-wrap:break-word ;  
+    line-height: 1.5;
+    
+}
+
+
+#rp2 {
+    font-family:'Segoe UI';
+    font-style: oblique ;
+    white-space: pre-wrap;
+    letter-spacing: 2px ;
+    line-height: 1.3;
+}
+
+#rp3{
+    font-family:'Trebuchet MS';
+    font-style: italic ;
+    white-space: pre-line;
+    line-height: 1.8;
+}
+
+
+/*romance fim*/
+
+/*drama começo*/
+
+
+.imagens_drama{
+    width: 200px;
+    height: 300px;
+    padding: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragrafo_drama{
+    width: 400px;
+    text-align: justify;
+}
+
+#fonte_voce{
+    font-family: 'goudy old style', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    text-indent: 20px;
+    line-height: 20px;
+}
+
+#fonte_marley{
+    font-family: 'Century Gothic', fantasy;
+    font-size: 15px;
+    font-style: oblique;
+    text-indent: 20px;
+    line-height: 20px;
+}
+
+#fonte_menino{
+    font-family: 'Garamond', cursive;
+    font-size: 16px;
+    text-indent: 20px;
+    line-height: 20px;
+}
+
+.nome_meu_livro{
+    font-variant: small-caps;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+/*drama fim*/
+
+/*autoajuda começo*/
+#OPDH{
+    font-family:  cursive ;
+    font-size: 20px ;
+    font-style: normal ;
+    font-variant: normal ;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center ;
+    text-transform: none ;
+    text-indent: medida;
+    line-height: 1.9;
+    letter-spacing: normal;
+    word-spacing: 0;
+    word-wrap: 0;
+    white-space: normal;
+}
+#CFAEIP{
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-size: large;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: 500;
+    text-decoration: none ;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: medida ;
+    line-height: 1.8;
+    letter-spacing: normal;
+    word-spacing: 0;
+    word-wrap: 0;
+    white-space: normal;
+}
+#ASALOF{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-style: ;
+    font-variant: inherit;
+    font-weight: bold;
+    text-decoration: inherit ;
+    text-align: center ;
+    text-transform: none;
+    text-indent: medida;
+    line-height: 1.9;
+    letter-spacing: normal;
+    word-spacing: 0;
+    word-wrap: 0;
+    white-space: normal;
+}
+
+/*autoajuda fim*/
+
+
+
+
+

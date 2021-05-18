@@ -1,0 +1,43 @@
+*{
+    background-color: cornsilk;
+    text-align: center;
+}
+
+#p1 {
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#p2 {
+    line-height: 30px;
+    font-size: large;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#p3 {
+    line-height: 2em;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' Verdana, sans-serif;
+}
+#p4 {
+    line-height: 2rem;
+    font-size: small;
+    text-align: center;
+    font-family: fantasy;
+}
+#p5 {
+    line-height: 300%;
+    font-size: x-small;
+    text-align: center;
+    font-family: sans-serif;
+}
+#p6 {
+    font-size: xx-small;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

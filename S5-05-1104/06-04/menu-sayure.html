@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lista Mania</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			div, header, footer{
+				border: 1px solid;
+			}
+
+			body{
+				width: 80%;
+				margin: 0 auto;
+			}
+
+			#site{
+				
+				display: grid;
+				grid-template-columns: repeat(3,1fr);
+				grid-auto-rows: 100px;
+				
+
+			}
+
+			header{
+				grid-column-start: 1;
+				grid-column-end: 4;
+			}
+
+			footer{
+				grid-column-start: 1;
+				grid-column-end: 4;
+				grid-row-start: 3;
+				grid-row-end: 4;
+			}
+
+			#container{
+				
+				grid-column-start: 1;
+				grid-column-end: 4;
+				grid-row-start: 2;
+				grid-row-end: 3;
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+
+			}
+
+			
+
+			nav ul{
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+
+			}
+
+			li{
+				
+				list-style-image: url(https://lh3.googleusercontent.com/fife/ABSRlIqO2ImiRpdOlgrOtPYYsDFKNRNuKTI9D_EGv9u4Af3TjnqLYvuGaK1SNBZeCgVQGIO12UQNrFBm539k6LUmofxcNy2c0oPyPSUzWAxMtle_low1smxhFpo_N1f6cMmB2i7uxzUh-HV1tVJ7bIqEncHSGNzh6pMnxpfIWpMuMTL10ToNu5bUtwzzmiCBhUM1fpJwNvIBqAvZJyGfkNI0WhZJIWedfS4xJ8_-l7AY8JCfz5hyWGYQOuadCliM4UCmoKECok8dWkrEa5q8nbE80YS4joSk5vFW0Ewyo5cp1lzCXGq1PdcPgivkc08m4M3cjuWW7FZHvobdImiTyOOLkYZBYJaWzUlhqMEyWsqbyaN1yYSrprywoYGWKZ8TTEfQyXESxHCZeA8TGkC3cGoOMFg27XGf_E_Gjcploy39nt6zx66ctYdjFLJY01cJlhenM4z8TMZEiPbO3JPqWkp4ABBOARFs8IDhm2jc5XguwdXLT54YW_AbQ4cfuxPZ2PJhtI48m4HaBqxVxann4pPTQBJiBdTgQsRcFmftRysqiBl33q-T4KZS-lPYDerax8bBchtMVJ0KpTluNQQmqBXfSBmECaYJNba65dDrG9wiDyMXjmLlQGpdI1FnFE-pXbWauB4p67qnIxTxL86DaF2paJaQTp7elMMVCjmsbrTcEntYc0CyNH4C7kGoreVVqIQ1Ga3OuAUhgCt3tHWKSJ8uS4NhuuVxomIR=w1349-h657-ft?authuser=0);
+				list-style-position: inside;
+			}
+
+			li a {
+				font:12px  Arial,Verdana,Helvetica,sans-serif;
+				color: #000;
+				text-decoration: none;
+				background: #FFC50C;
+				text-align: center;
+				padding: 1px 5px;
+				margin-right: 1px;
+				border: 1px solid #000;
+			}
+
+			li a:hover {
+				color: #666;
+				background: #FCFCFC;
+				border: 1px solid #666;
+			}
+
+			#submenu li{
+                display: block;
+                list-style: none;
+            }
+
+
+
+
+
+					
+			
+		</style>
+	</head>
+	<body>
+		<div id="site">
+			<header>
+				<nav>
+					<ul>
+						<li><a href="#">Home </a></li>
+						<li><a href="#">Sobre nós</a></li>
+						<li><a href="#">Contatos</a>
+							<ul id="submenu">
+								<li>1</li>
+								<li>2</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<div id="container">
+				<div id="sidbar">sidbar</div>
+				<div id="content1">conteudo1</div>
+				<div id="content2">conteudo2</div>
+			</div>
+			<footer> rodapé
+				
+			</footer> 
+				
+			
+		</div>
+		
+
+	</body>
+</html>

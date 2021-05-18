@@ -1,0 +1,82 @@
+body{
+
+    text-align: center;
+
+}
+
+table{
+    margin: auto;
+
+}
+
+div{
+    width: 200px;
+    height: 200px;
+}
+
+h3{
+    font-family: monospace;
+    color: whitesmoke;
+    font-size: large;
+}
+
+
+#id1{
+    background-image: linear-gradient( darkblue, blue, lightskyblue); /*Juliana Fabrício 14h04min*/
+}
+#id2{
+    background-image: radial-gradient( darkred,orange ,lightcoral); /*Juliana Fabrício 14h06min*/
+
+}
+#id3{
+    background-image: linear-gradient(to right,red, blue, yellow); /*Juliana Fabrício 14h07min*/
+}
+
+#id4{
+    background-image: radial-gradient( lightskyblue 20%, blue 60%, darkblue 80%); /*Juliana Fabrício 14h013min*/
+}
+#id5{
+    background-image: linear-gradient(to bottom left,lightcoral, orange, darkred); /*Juliana Fabrício 14h15min*/
+}
+#id6{
+    background-image: radial-gradient(circle, red, blue, yellow); /*Juliana Fabrício 14h15min*/
+   
+}
+#id7{
+    background-image: linear-gradient( lightskyblue, blue, darkblue); /*Juliana Fabrício 14h16min*/  
+}
+#id8{
+    background-image: radial-gradient(farthest-side at 50% 10%, darkred, orange, lightsalmon);/*Juliana Fabrício 14h16min*/
+    
+}
+#id9{
+    background-image: linear-gradient(to top left,red, blue, yellow);/*Juliana Fabrício 14h16min*/
+   
+}
+#id10{
+    
+    background-image: radial-gradient(closest-side at 30% 15%, lightskyblue, blue, darkblue); /*Juliana Fabrício 14h19min*/
+   
+}
+#id11{
+    background-image: repeating-linear-gradient(lightcoral, orange 20%, darkred 40%);
+    /*Juliana Fabrício 14h19min*/
+}
+#id12{
+    background-image: radial-gradient(farthest-corner at 80% 60%, red, blue, yellow);
+    /*Juliana Fabrício 14h19min*/
+}
+#id13{
+    background-image: linear-gradient(to bottom right,lightskyblue, blue, darkblue);
+    /*Juliana Fabrício 14h20min*/
+}
+#id14{
+    background-image: radial-gradient(closest-corner at 50% 49%,darkblue, blue, lightskyblue);/*Juliana Fabrício 14h20min*/
+    
+}
+#id15{
+    background-image: linear-gradient(to right, rgba(0,0,255,0),rgba(0,0,255,0.5), rgba(255,0,0,1) );/*Juliana Fabrício 14h20min*/
+}
+
+
+

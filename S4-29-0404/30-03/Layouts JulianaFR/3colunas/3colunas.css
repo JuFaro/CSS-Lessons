@@ -1,0 +1,39 @@
+
+#geral {
+    width:960px;
+    margin:0 auto;
+    background: lemonchiffon;
+} 
+
+#hedear {
+    padding:10px;
+	background:lightpink;
+}
+#main1 {
+    float:left;
+	width:210px; 
+	padding:10px;
+    background:lightseagreen;
+
+}
+#main2 {
+    float:right;
+    width:720px;
+}
+#main21 {
+    float:left;
+    width:480px;
+	padding:10px;
+    background:lightslategray;
+}
+#main22 {
+    float:right;
+    width:200px;
+	padding:10px;
+    background:lightyellow;
+}
+#footer {
+    clear:both;
+	padding:10px;
+    background:lightblue;
+}

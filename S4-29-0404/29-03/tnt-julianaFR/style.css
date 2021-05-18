@@ -1,0 +1,37 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    text-align: center;
+    background-image: radial-gradient(white, orange , red);
+
+}
+
+
+
+img{
+    width: 150px;
+}
+
+.divbox{
+    width: 20%;
+    max-height: 300px;
+    border: 3px double;
+    float: left;
+    margin: 10px;
+    overflow: auto;   
+    background-color: white;
+}
+
+#linha1{
+    clear: both;
+    margin-left: 20%;   
+}
+#linha2{
+    clear: both;
+    margin-left: 10%;   
+}
+#linha3{
+    clear: both;
+    margin-left: 10%;   
+}
+

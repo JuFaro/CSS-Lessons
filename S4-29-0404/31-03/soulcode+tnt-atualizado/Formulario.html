@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Formulário de Inscrição</title>
+       <meta charset="utf-8">
+       <link rel="stylesheet" type="text/css" href="estilo.css"/>
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+ <!----------AQUI FOI UTILIZADO O FLOAT E POSITION--------->
+
+        <div id="header">
+            <ul>
+                <li><a href="Formulario.html">Inscreva-se</a></li>
+                <li><a href="info.html">Saiba Mais</a></li>
+                <li><a href="principal.html">Home</a></li>
+            </ul>  
+            <img src="tnt.png" alt="logo tnt" id="tnt">
+            <img src="soul.png" alt="logo SoulCode" id="soul">
+        </div>
+
+        <div id="direita">
+            <img src="imagens/lateral.jpeg" width="100%" height= "700px">
+        </div>
+
+        <div id="formulario">
+            <h1>Inscreva-se</h1>
+            <h2>Preencha o Formulário e aguarde nosso E-mail</h2>
+            <hr width="500px">
+            <form action="#" method="POST">
+                <p>
+                    <input type="name" sinze="" placeholder="Nome Completo *" size="40" required="true" autofocus>   
+                    <input type="number" placeholder="idade*" size="10"  required="true"> 
+                </p>
+                <p>
+                    <input type="text" placeholder="CPF*" size="50" required="true"  maxlength="11">  
+                </p>
+                <p>
+                    <input type="Email" placeholder="E-mail *" size="50" required="true">
+                </p>
+                <p>
+                    <input type="tel" placeholder="Telefone *" size="25" required="true" pattern="^\(?\d{2}\)?[\s-]?[\s9]?\d{5}-?\d{4}$" maxlength="13">  
+                    <input list="genero" placeholder="Gênero*" size="20" required="true" class="genero">
+                    <datalist id="genero" required="true">
+                        <option value="Feminino">
+                        <option value="Masculino">
+                        <option value="Outros">
+                    </datalist>
+                </p>
+                <p>
+                    <input type="text" placeholder="Estado*" size="22" required="true">  
+                    <input type="text" placeholder="Cidade*" size="22" required="true">  
+                </p>
+                <p>
+                    <button id="buttonform" type="submit">Enviar Formulário</button>
+                </p>
+            </form>
+        </div>
+
+        <div id="esquerda">
+            <img src="imagens/lateral.jpeg" width="100%" height= "700px">
+        </div>
+
+<!---------------CLEAR E FLEXBOX----------------->
+
+        <div id="footer">
+            <div>
+                <a href="https://www.instagram.com/tntenergydrink/"><img src="insta.jpg" alt="instagram" width="50px"></a>
+                <a href="https://www.facebook.com/tntenergydrink"><img src="face.jpg" alt="facebook" width="50px" id="fb"></a>
+                <a href="https://twitter.com/energydrinktnt"><img src="twiter.jpg" alt="twitter" width="50px" id="twitter"></a>
+            </div>
+            
+            <div >
+                Juntos desde 2020 | acesse nossas Redes Sociais 
+            </div>
+
+            <div >
+                <a href="https://www.linkedin.com/company/soulcodebrasil/"><img src="linkedin.jpg" alt="linkedin" width="50px"></a>
+                <a href="https://www.instagram.com/soulcodeacademy/"><img src="insta.jpg" alt="instagram" width="50px" id="insta"></a>
+                <a href="https://www.facebook.com/SoulCodeAcademy/"><img src="face.jpg" alt="facebook" width="50px" id="fb2"></a>
+            </div>
+        </div> 
+    </body>
+</html>

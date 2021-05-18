@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="Formulario.css">
+   
+</head>
+<body>
+    <div id="bloco">
+        <form action="local-que-recebera-os-dados-preenchidos" method="post">
+            <h1>Cadastre-se</h1>
+
+            <div class="cadastro">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" id="name" size="30" placeholder="Nome Completo" autofocus="" required="" pattern="[a-zA-Z\s]+$">
+                </div>
+    
+                <div>
+                    <label for="data de Nascimento"></label>
+                    <input type="tel" id="dtnascimento" placeholder="Data de nascimento" >
+                </div>
+    
+                <div>
+                    <form name="cadastro">
+                        <input type="text" name="cpf" id="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"                        title="Digite um CPF no formato: xxx.xxx.xxx-xx" placeholder="CPF xxx.xxx.xxx-xx">    
+              
+                <div>
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                </div>
+    
+                <div>
+                    <input list="genero" required="" placeholder="Gênero">
+                    <datalist id="genero">
+                        <option value="Feminino"></option>
+                        <option value="Masculino"></option>
+                        <option value="Outro"></option>
+                    </datalist>   
+                </div>
+    
+                <div>
+                    <label for="telefone"></label>
+                    <input type="tel" id="telefone" placeholder="DDD + Telefone" pattern="[0-9]{2}-[0-9]{4,6}-[0-9]{3,4}$">
+                </div>
+    
+                <div>
+                    <label for="estado"></label>
+                    <input type="text" id="estado" placeholder="Estado" pattern="[a-zA-Z\s]+$">
+                </div>
+    
+                <div>
+                    <label for="cidade"></label>
+                    <input type="text" id="cidade" placeholder="Cidade" pattern="[a-zA-Z\s]+$">
+                </div>
+
+            </div>       
+
+            <div class="button">
+                <button type="submit"><p id="pbotao">Confirmar inscrição</p></button>
+            </div> 
+        </form> 
+    </div>    
+</body>
+</html>
+
+
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circo</title>
+    <style>
+        body{
+            background-image: url(https://ak.picdn.net/shutterstock/videos/1009989158/thumb/1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        #site{
+            border-radius: 50px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-attachment: fixed;
+            background-image: radial-gradient(   blanchedalmond, red);
+            
+        }
+
+        header{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        footer{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        img{
+            width: 300px;
+            height: 300px;
+        }
+
+        .boxcontent{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            text-align: justify;
+            padding: 30px;
+            
+        }
+
+        main{
+            width: 60%;
+            margin: auto;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            display: grid;
+            background-color: white;
+            border-radius: 50px;
+            
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <div id="site">
+        <header>
+            <h1>Circo Aéreos</h1>
+        </header>
+        <main>
+            <div>
+                <div>
+                    <h2>Tecido Acrobático</h2>
+                </div>
+                <div  class="boxcontent">
+                    <p>O tecido acrobático é uma modalidade circense onde se utiliza um pano em geral do tipo liganete, de comprimento correspondente ao dobro do espaço em que está praticado. Nele, o artista mostra toda sua beleza plástica, com figuras e quedas, sempre carregado com fortes emoções e sentimentos.</p>
+                    <img src="https://circusfit.com.br/wp-content/uploads/2018/02/IMG_2206-Edit-1024x1024.jpg" alt="">
+
+                </div>    
+            </div>
+
+            <div>
+                <div>
+                    <h2>Trapézio</h2>
+                </div>
+                <div  class="boxcontent">
+                    <p>O trapézio fixo consiste em uma barra de ferro de 70 cm suspensa por duas cordas, que estão fixas a uma estrutura no alto. Nesse aparelho são realizados figuras, truques e quedas individuais. O artista mostra toda a sua virtuosidade e destreza, alimentando a imaginação do público com sua mais bela performance.</p>
+                    <img src="https://i.pinimg.com/236x/80/2c/af/802caf61bf251f8ce879d7f654336a44--aerial-dance-aerial-hoop.jpg" alt="">
+
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h2>Lira</h2>
+                </div>
+                <div class="boxcontent">
+                    <p>É de estrutura metálica presa por uma corda ou tecido a um ponto fixo. O artista cria figuras e usa toda a sua mobilidade para levar, da melhor forma possível, o espectador para uma outra realidade.</p>
+                    <img src="https://circusfit.com.br/wp-content/uploads/2017/11/IMG_4372_3.jpg" alt="">
+
+                </div>  
+            </div>
+            
+        </main>
+    
+        <footer>
+            <h3>&copy juliana Fabricio Rodrigues | 06/04/2021</h3>
+        </footer>
+    </div>
+
+
+    
+</body>
+</html>

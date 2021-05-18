@@ -1,0 +1,44 @@
+body{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: lightyellow;
+}
+
+table{ 
+    
+    text-align: center;
+    border: none;
+    background-color: lightsteelblue;
+}
+
+
+h1 {
+    t
+    font-family: 'Franklin Gothic Medium';
+    text-decoration: underline;
+}
+
+#riscado {
+    text-decoration:line-through;
+
+}
+
+#obg {
+    color: green;
+}
+
+#ag {
+    color: blue;
+}
+
+#tp {
+    font-style:italic;
+    font-variant: small-caps;
+
+}
+
+li {
+       list-style-position: inside;
+}
+

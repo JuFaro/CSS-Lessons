@@ -1,0 +1,99 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image:url('imagens/background.png');
+    background-size: 40%;
+    font-family: 'Merriweather Sans', sans-serif;  
+}
+
+#bloco {
+    height: 600px;
+    width: 450px;
+    border-radius: 20px;
+    background-image: linear-gradient(120deg, #c491ff, #f7ffd4, #fdafe3);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-style: outset;
+    border-color: linear-gradient(120deg, #c491ff, #f7ffd4, #fdafe3);
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 1px black;
+    position: relative;
+    top: 30px;
+}
+
+.cadastro{
+    margin-top: 10%;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-size: 20px;   
+}
+
+input {
+    border-radius:10px;
+    border: 2px solid #64b4ff;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: #dcdcdc; 
+    width: 300px;   
+}
+
+/* BOTÃO */
+button {
+    border-radius:10px;
+    padding: 10px;
+    background-color: #2593fa;
+    cursor: pointer;
+    margin-top: 30px;
+    border: none;
+}
+
+#pbotao {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#frasebalao {
+    position: relative;
+    bottom: 270px;
+    left: 60px;
+    color:  rgba(49, 46, 95, 1);
+    font-size: 20px;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: rgba(49, 46, 95, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    margin-top: 22px;
+    text-align: center;
+}
+
+#p1, #p2 {    
+    text-align: center;
+    color: white; 
+    margin-top: 5px;
+    margin-bottom: 8px; 
+    font-size: 13px;
+}
+
+
+

@@ -1,0 +1,64 @@
+body{
+
+text-align: center;
+background-image: url(https://i.pinimg.com/originals/ff/43/47/ff4347f25f5ea0a42ccee4e4cbbb663f.png);
+background-repeat: repeat-x;
+background-position: left bottom ;
+background-attachment: fixed;
+
+}
+
+div{
+    border: 2px solid;
+    border-style: dashed;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 40px ;
+    width: 50%;
+    margin: auto;
+    background-color: lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#divbody{
+    background-color: lightskyblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+table{
+    margin: auto;
+    border: none;
+}
+
+td{
+  
+    background-color: lightyellow;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+#bloc1{
+    border-radius: 5px 10px 20px 40px;
+    border-width: 5px;
+
+    border-right-style: dotted;
+    border-top-color: floralwhite;
+
+    border-bottom-style: double;
+    border-bottom-color: cadetblue;
+
+    border-left-style: groove;
+    border-left-color: chocolate;
+
+    border-top-style: dashed;
+    border-top-color: goldenrod;
+}
+#bloc2{
+ border: 5px fuchsia groove;
+ border-radius: 5px;
+}
+

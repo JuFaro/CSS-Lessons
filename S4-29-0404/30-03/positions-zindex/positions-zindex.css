@@ -1,0 +1,229 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+   
+    background-image: radial-gradient(white, lavenderblush , lavender);
+}
+
+
+
+
+
+/*Linha 1--------------*/
+.img1{
+    position:absolute;
+    top: 170px;
+    left: 250px;
+    width: 150px;
+  
+}
+.img2{
+    position:absolute;
+    z-index: -1;
+    top: 170px;
+    left: 600px;
+    width: 150px;
+  
+}
+.img3{
+    position:absolute;
+    top: 170px;
+    left: 940px;
+    width: 150px;
+  
+}
+
+.divbox{
+    width: 300px;
+    max-height: 300px;
+    border: 3px double;
+    float: left;
+    margin: 20px;
+    overflow: auto;   
+    background-color: white;
+}
+
+#linha1{
+    clear: both;
+    margin-left: 150px; 
+    text-align: center;  
+}
+/*Linha 2--------------*/
+#linha2{
+    clear: both;
+    margin-left: 150px; 
+    text-align: center;  
+}
+.img4{
+    position:sticky;
+    width: 150px;
+
+  
+}
+.img5{
+    position:sticky;
+    width: 150px;
+
+  
+}
+
+/*menu--------------*/
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.menu{
+    width: 50%;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 1.5rem;
+ }
+ 
+.menu li {
+     float: left;
+     border-right: 1px solid #c0c0c0;
+     background-color: #fff;
+     border-radius: 3px;  
+ }
+ 
+.menu li a {
+     color: #333;
+     text-decoration: none;
+     padding: 3px 10px;
+         
+ }
+ 
+
+  /*formulário--------------*/
+
+#formbox{
+    clear: both;
+    border: 3px solid;
+    width: 270px;
+    background-image: radial-gradient(white, lavenderblush , lavender);
+    text-align: center;
+    position: fixed;
+    top: 450px;
+   
+
+}
+
+
+ /* botão--------------- */
+.button {
+ 
+    margin-top: 10px;
+    margin-right: 10px;
+ 
+}
+
+#email{
+    margin-top: 10px;
+}
+
+#pbotao {
+
+    color: black;
+    background-color: lavender;
+    text-shadow: 2px 1px lavenderblush;
+    font-weight: bolder;
+    cursor: grabbing;
+
+}
+
+/* página 2--------------- */
+
+#bodypag{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+#dicas{
+    width: 100%;
+    height: 30px;
+    border: 3px solid;
+    background-image: radial-gradient(white, lavenderblush , lavender);
+    text-align: center;
+    margin-bottom: 30px;
+    
+}   
+
+.box1{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 3px solid;
+    float: left;
+    font-size: 1rem;
+
+}
+.box2{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 3px solid;
+    float: right;
+    font-size: 1rem;
+  
+}
+
+
+
+#back1{
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    border-radius: ;
+}
+#imgpag1{
+    width: 200px;
+    position: absolute;
+    left:50px;
+    top: 50px;
+    z-index: 2;
+}
+
+#front1{
+    width: 100px;
+    height: 100px;
+    background-color: lightsteelblue;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
+#front2{
+    width: 300px;
+    height: 150px;
+    background-color: lightpink;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+#imgpag2{
+    width: 200px;
+    position: absolute;
+    left:50px;
+    top: 50px;
+    z-index: 2;
+}
+#back2{
+    width: 300px;
+    height: 150px;
+    background-color:lightsteelblue ;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    
+}
+
+
+
+

@@ -1,0 +1,300 @@
+body {margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*------------------------ MENU---------------*/
+#header {width: 100%;
+        height: 120px;
+        background-color: white;}
+
+li { list-style: none;
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+
+    }
+
+li a{color: #ff1616;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;}
+
+li a:hover {color: #3cb4c4;}
+/*li a:visited {Color: rgb(0, 255, 234)}*/
+
+
+#tnt{position: relative;
+    bottom: 40px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+  
+ }
+
+#soul{ margin-top: 10px;
+    width: 150px;
+    height: 150px;}
+
+/*---------------------Conteudo-------------*/
+
+#esquerda {float: left;
+width: 20%;
+height: 700px;
+}     
+
+#direita {float: left;
+    width: 20%;
+    height: 700px;
+}
+/*---------------FORMULARIO----------------*/
+
+#formulario {float: left;
+width: 60%;
+height: 600px;
+background-color: #3cb4c4;
+text-align: center;
+padding-top: 100px;}    
+
+h1 {
+    font-family:sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #ff1616;
+}
+h2{ font-family:sans-serif;
+    margin-bottom: 30px;
+    color: #ff1616;}
+hr{ margin-bottom: 20px;
+margin-left: 320px;}
+
+input[type=text] {height: 50px; }
+
+input[type=number] {height: 50px; width: 60px;}
+
+.genero {height: 50px;}
+
+input[type=name] {
+    height: 50px;
+    }
+input[type=email] {
+    height: 50px;
+    }
+input[type=tel] {
+    height: 50px;
+    }
+#buttonform{
+    color: #FFF;
+    background-color: #ff1616;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;        
+    transform: scale(1.05);    
+    }
+
+
+    /*----------------FOOTER-----------------*/
+
+#footer {width: 100%;
+    height: 100px;
+    background-color: white;
+    clear: both;
+    white-space: pre-wrap;
+    display: flex;
+    justify-content: space-between
+    ;
+    color:black;
+    
+    }
+    #twitter { position: relative;
+        bottom: 96px;
+       right: 50px;}
+
+    #fb {position: relative;
+    bottom: 49px;
+    left: 45px;
+    width: 65px;}
+  
+
+
+    #fb2 {position: relative;
+        bottom: 105px;
+        right: 110px;
+        width: 65px;
+    }
+
+    #insta {position: relative;
+        bottom: 56px;
+        right: 50px;
+    }
+
+    /*---------------PÀGINA PRINCIPAL---------*/
+#bodyprincipal{
+    background-image: url(imagens/lateral.jpeg),url(imagens/lateral.jpeg);
+    background-position: right, left;
+    background-size: 30% 1000px;
+    background-repeat: no-repeat;
+}
+
+    /*Container ---------*/
+#container{
+
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background-color: #3cb4c4 ;
+    overflow-y: auto;
+  
+}
+
+.h2index{
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 30px;
+}
+/*Banner----------*/
+
+
+#baner{
+    background-color: #3cb4c4;
+    background-position: center;   
+    width: 100%;
+    height:200px ;
+    margin: 0 0 20px 0;
+}
+
+#btitle{
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    font-size: 4rem;
+    
+}
+
+/*Botão increva-se já----------*/
+
+.button{
+    padding: 10px;
+    text-align: right;
+    position: relative;
+    right: 90px; 
+}
+
+#pbotao {
+    color: #FFF;
+    background-color: #ff1616;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;        
+    transform: scale(1.05);  
+}
+
+
+
+
+
+
+/*Principal----------*/
+#boxprincipal{
+   
+    height: 400px;
+    background-color: #3cb4c4  ;
+    width: 40%;
+    text-align: center;
+    
+}
+
+.subprincipal{
+    background-color: white;
+    margin: 20px 20px 0 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+
+
+/*imagem das logos com os links----------*/
+
+.boximgl{  
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    clip: rect(10px,10px);
+    
+} 
+
+#boxlogos div{
+   
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#boxlogos{
+  
+    width: 20%;
+    height: 400px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+/*Depoimentos----------*/
+#boxalunas{
+
+    width: 35%;
+    margin-left: 10px;
+    text-align: center;
+    height: 600px;
+    
+    
+}
+
+.depoalunas{
+    background-color: white;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   text-align: justify;
+   margin: 10px 20px 10px 20px;
+   padding-right: 10px;
+   border-radius: 5px;
+   
+}
+.imgalunas{
+    width: 100px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+/*---------------PÀGINA PRINCIPAL---------*/
+  
+    

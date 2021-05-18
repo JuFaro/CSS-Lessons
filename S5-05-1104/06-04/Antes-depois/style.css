@@ -1,0 +1,117 @@
+body{
+    background-image: radial-gradient(white,darkkhaki , blue);
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+   
+}
+
+/* header----------------------------*/
+.flagsjc{
+    width: 150px;
+    height: 100px;
+}
+
+.imgbrew{
+    width: 250px;
+    height: 250px;
+
+}
+.imgbrew3lions{
+    width: 300px;
+    height: 250px;
+}
+.imgbrewcap{
+    width: 200px;
+    height: 250px;
+
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    
+
+}
+
+/* header menu*/
+h1{
+    font-size: 1.6rem;
+ 
+}
+#divmenu{
+    position: relative;
+
+}
+
+.menu{
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    position: absolute;  
+    bottom: 0;
+    left: 15%;
+
+}
+.menu li{
+    position: relative;
+}
+.menu li a{
+    display: block;
+    color: blue;
+    padding: 5px;
+    margin-left:2px ;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: darkblue;
+    background: khaki;
+    border: 1px solid darkblue;
+}
+
+.menu li ul{
+    position: absolute;
+    flex-flow: column wrap;
+    list-style: none;
+    display: none;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+/* Main----------------------------*/
+main{
+    width: 80%;
+    align-content: center;
+    margin: 120px auto;
+}
+.boxall{
+    background-color: white;
+    border: 2px solid darkblue;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.boxcontent p{
+    width: 45%;
+}
+
+.boxcontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: justify;
+    justify-content: space-around;
+    padding: 30px;
+    
+}

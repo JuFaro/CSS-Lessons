@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    background-size: 10%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-image:url(bkg-1.PNG), url(bkg-2.PNG);
+    background-position: right, left; 
+    font-family: cursive ;
+      
+}
+
+header{
+    margin: auto;
+    width: 80%;
+    padding-top: 10px;
+    text-align: center;
+   
+}
+main{
+    margin: auto;
+    width: 50%;
+}
+
+td{
+    font-size: large;
+    padding: 10px;
+}
+
+#imgpsi{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#red{
+    background: lightcoral;
+    border: 5px;
+    border-style: inset;
+    border-color: red;
+    text-align: center;
+    
+}
+#yellow{
+    background: khaki;
+    border: 5px;
+    border-style: inset;
+    border-color: yellow;
+    text-align: center;
+}
+#blue{
+    background: lightskyblue;
+    border: 5px;
+    border-style: inset;
+    border-color: blue;
+    text-align: center;
+}

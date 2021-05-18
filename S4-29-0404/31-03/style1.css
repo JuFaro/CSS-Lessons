@@ -1,0 +1,153 @@
+
+#bodyindex{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+
+/*Container ---------*/
+#container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background-color: #3cb4c4 ;
+    border-radius: 30px;
+    
+}
+
+h2{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 30px;
+}
+/*Banner----------*/
+
+
+#baner{
+    background-image: url(https://assets-blog.hostgator.com.br/wp-content/uploads/2018/02/mulheres-na-tecnologia-blog-v02.jpg) ;
+    background-position: center;
+    border: 2px solid red;
+    border-radius: 30px;
+    width: 100%;
+    height:300px ;
+    margin: 0 auto;
+    
+}
+
+#btitle{
+    background-color: white;
+    margin-top: 130px;
+    
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+/*Botão increva-se já----------*/
+
+.button{
+    margin: 10px;
+    text-align: right;
+}
+
+#pbotao {
+    color: black;
+    background-color: lavender;
+    text-shadow: 2px 1px lavenderblush;
+    font-weight: bolder;
+    cursor: grabbing;
+}
+
+
+/*Principal----------*/
+#boxprincipal{
+   
+    height: 400px;
+    background-color: #3cb4c4  ;
+    width: 40%;
+    text-align: center;
+    
+}
+
+.subprincipal{
+    background-color: white;
+    margin: 20px 20px 0 20px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: justify;
+
+}
+
+
+
+/*imagem das logos com os links----------*/
+
+.boximgl{  
+    
+    width: 100px;
+    height: 100px;
+    
+} 
+
+#boxlogos div{
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+#boxlogos{
+  
+    width: 20%;
+    height: 400px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+/*Depoimentos----------*/
+#boxalunas{
+
+    width: 35%;
+    margin-left: 10px;
+    text-align: center;
+    height: 600px;
+    
+    
+}
+
+.depoalunas{
+    background-color: white;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   text-align: justify;
+   margin: 10px 20px 10px 20px;
+   padding-right: 10px;
+   border-radius: 30px;
+   
+}
+.imgalunas{
+    width: 100px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 30px;
+}
